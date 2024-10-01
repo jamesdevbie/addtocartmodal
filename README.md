@@ -1,6 +1,6 @@
 <h1>Add to Cart Modal</h1>
 
-<b>WHAT?</b>
+<b>WHAT?</b><br/>
 JX4 Retail is a E-Commerce web application that lists its products, allows users to add to cart and remove from cart using modal.
 
 <b>HOW?</b>
