@@ -1,0 +1,131 @@
+.modal {
+  position: absolute;
+  display: block;
+  width: 60vw;
+  height: 80vh;
+  color: #03033d;
+  background-image: radial-gradient(
+    circle at top left,
+    rgb(195, 195, 195) 0%,
+    rgb(195, 195, 195) 2%,
+    rgb(202, 202, 202) 2%,
+    rgb(202, 202, 202) 23%,
+    rgb(209, 209, 209) 23%,
+    rgb(209, 209, 209) 55%,
+    rgb(217, 217, 217) 55%,
+    rgb(217, 217, 217) 80%,
+    rgb(224, 224, 224) 80%,
+    rgb(224, 224, 224) 86%,
+    rgb(231, 231, 231) 86%,
+    rgb(231, 231, 231) 96%,
+    rgb(238, 238, 238) 96%,
+    rgb(238, 238, 238) 100%
+  );
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 100px;
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+  overflow: auto;
+  top: 117px;
+  left: 23%;
+}
+
+.modal-header {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  background-image: radial-gradient(
+    circle at top left,
+    rgb(48, 48, 48) 0%,
+    rgb(48, 48, 48) 8%,
+    rgb(46, 46, 46) 8%,
+    rgb(46, 46, 46) 57%,
+    rgb(43, 43, 43) 57%,
+    rgb(43, 43, 43) 65%,
+    rgb(41, 41, 41) 65%,
+    rgb(41, 41, 41) 67%,
+    rgb(39, 39, 39) 67%,
+    rgb(39, 39, 39) 72%,
+    rgb(36, 36, 36) 72%,
+    rgb(36, 36, 36) 80%,
+    rgb(34, 34, 34) 80%,
+    rgb(34, 34, 34) 100%
+  );
+}
+
+.modal-header h1 {
+  margin-left: 40%;
+}
+
+.modal-header span {
+  cursor: pointer;
+  margin: 0;
+  padding: 10px;
+  font-weight: bolder;
+  font-size: 30px;
+  border: 1 px solid red;
+  margin-right: 10px;
+}
+table,
+th,
+td {
+  text-align: center;
+  border: 1px solid gray;
+  border-collapse: collapse;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+}
+.close:hover,
+.close:focus {
+  background-image: radial-gradient(
+    circle at bottom left,
+    rgb(242, 242, 242) 0%,
+    rgb(242, 242, 242) 6%,
+    rgb(238, 238, 238) 6%,
+    rgb(238, 238, 238) 15%,
+    rgb(234, 234, 234) 15%,
+    rgb(234, 234, 234) 47%,
+    rgb(230, 230, 230) 47%,
+    rgb(230, 230, 230) 54%,
+    rgb(225, 225, 225) 54%,
+    rgb(225, 225, 225) 56%,
+    rgb(221, 221, 221) 56%,
+    rgb(221, 221, 221) 90%,
+    rgb(217, 217, 217) 90%,
+    rgb(217, 217, 217) 100%
+  );
+  cursor: pointer;
+  color: black;
+}
+td {
+  padding: 2rem;
+}
+
+.cart-image {
+  width: 100px;
+  height: 100px;
+}
+
+.cart-modal-button {
+  cursor: pointer;
+  border-color: aliceblue;
+  color: whitesmoke;
+  box-shadow: rgba(239, 236, 236, 0.936) 0px 2px 15px;
+  padding: 7px 15px;
+  border-radius: 5px;
+  font-size: large;
+  font-weight: lighter;
+  background-image: radial-gradient(
+    circle at center center,
+    rgb(69, 48, 242),
+    rgb(63, 48, 184),
+    rgb(56, 48, 125),
+    rgb(50, 47, 67),
+    rgb(43, 47, 8)
+  );
+}

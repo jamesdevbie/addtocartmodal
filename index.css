@@ -1,0 +1,12 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+body {
+  background-image: linear-gradient(
+    135deg,
+    rgb(68, 202, 201) 0%,
+    rgb(252, 255, 114) 100%
+  );
+}
